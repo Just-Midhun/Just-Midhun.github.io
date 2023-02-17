@@ -44,7 +44,8 @@ function renderValue() {
 }
 
 function clearUrl(){
-    localStorage.removeItem('urlSet');
-    output.innerHTML="";
+    localStorage.clear();
+    urlSet=[];
+    renderValue();
 } 
     
