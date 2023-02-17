@@ -1,5 +1,5 @@
-let firstCard=getRandomCard();
-let secondCard=getRandomCard();
+let firstCard;
+let secondCard;
 let cards=[firstCard,secondCard];
 let sum;
 let hasBlackJack=false;
@@ -28,10 +28,11 @@ newcard.addEventListener("click", newCard);
 function startGame() {
     
     if(aldreadyStarted===false) {
-    
+    firstCard=getRandomCard();
+    secondCard=getRandomCard();
     sum=firstCard+secondCard;
     gameActive=true;
-    sumEl.textContent="SUM:"+sum;
+    sumEl.textContent="Sum:"+sum;
     cardEl.textContent="CARDS:"+firstCard+" "+secondCard;
     hasBlackJack=false;
     isAlive=true;
