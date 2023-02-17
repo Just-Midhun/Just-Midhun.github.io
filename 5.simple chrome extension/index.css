@@ -1,0 +1,47 @@
+body{
+    margin:0;
+    padding:10px;
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 500px; /*fix the minimum space upto which tab can be minimised*/
+}
+
+#input-el{
+    padding: 10px;
+    width:100%;
+    box-sizing: border-box; /*fit input box to the width of window*/
+    border: 2px solid #649300;
+    margin-bottom: 5px;
+}
+
+#save{
+    background-color: #517f35;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: bold;
+    color:azure;
+    padding: 10px;
+    border:none;
+}
+
+#clear{
+    background-color: #306842;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: bold;
+    color:azure;
+    padding: 10px;
+    border:none;
+}
+
+ul{
+    margin-top: 20px;
+    list-style: none;
+    padding-left:0;
+
+}
+
+li{
+    margin-top: 20px;
+}
+
+li a{                   /*used for targeting anchors inside the li element*/
+    color:#649300;
+}
